@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.button {  
+    color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color:slategrey;
+    border: none;
+    cursor:pointer;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color:teal;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:white;
+    text-shadow: -1px -1px 0 rgb(63, 63, 63), 1px -1px 0 rgb(63, 63, 63), -1px 1px 0 rgb(63, 63, 63), 1px 1px 0 rgb(63, 63, 63);
+}
