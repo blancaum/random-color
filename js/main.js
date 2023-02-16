@@ -1,3 +1,5 @@
+'use strict';
+
 //Elementos HTML
 const form = document.querySelector('.js_form');
 const btn = document.querySelector('.js_btn');
