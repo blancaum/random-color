@@ -46,7 +46,7 @@ function handleClickForm(ev) {
 }
 
 function handleClickBtn(ev) {
-  newColor = getRandomColorRGB();
+  const newColor = getRandomColorRGB();
   const hexColor = rgbToHex(newColor);
   document.body.style.backgroundColor = newColor;
   textRgb.innerHTML = `RGB color: ${newColor}`;
